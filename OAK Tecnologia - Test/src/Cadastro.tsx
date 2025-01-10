@@ -1,3 +1,4 @@
+// Cadastro.tsx
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
@@ -58,7 +59,7 @@ const Image = styled.img`
   max-width: 100px;
 `;
 
-interface Produto {
+export interface Produto {
   nome: string;
   descricao: string;
   valor: number;
